@@ -1,0 +1,39 @@
+body{
+    font-family: "Caveat", cursive;
+}
+
+#dadosPessoais{
+    font-size: 30px;
+    background-color: rgb(197, 102, 102);
+    border: solid;
+    border-radius: 10px;
+    color: white;
+}
+
+fieldset{
+    border-radius: 10px;
+    width: 500px;
+    border-width: 3px;
+    border-color: rgb(197, 102, 102);;
+}
+
+.tabelaDadosPessoais{
+    font-size: 25px;
+    text-align: right;
+}
+
+.divDadosPessoais{
+    display: flex;
+    justify-content: center;
+}
+
+.tabelaDadosPessoais input{
+    width: 300px;
+}
+
+select{
+    width: 300px;
+}
+
+
+

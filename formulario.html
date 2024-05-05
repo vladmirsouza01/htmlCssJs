@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario</title>
+        <link rel="stylesheet" href="formulario.css">
+    </head>
+    <body>
+        
+            <div class="divDadosPessoais">
+                <fieldset>
+                    <legend id="dadosPessoais">Dados Pessoais</legend>
+                        <table class="tabelaDadosPessoais">
+                            <tr>
+                                <td>Nome: </td>
+                                <td><input type="text" placeholder="digite o seu nome"></td>
+                            </tr>
+                            <tr>
+                                <td>sobrenome: </td>
+                                <td><input type="text" placeholder="digite seu sobrenome"></td>
+                            </tr>
+                            <tr>
+                                <td>Endereço: </td>
+                                <td><input type="text" placeholder="Digite seu endereço completo"></td>
+                            </tr>
+                            <tr>
+                                <td>Email: </td>
+                                <td><input type="email" placeholder="Digite seu email"></td>
+                            </tr>
+                            <tr>
+                                <td>Selecione o Estado:</td>
+                                <!--tentei colocar uma div para alinhar esse combo a esquerda, 
+                                    mais náo consegui-->
+                                <div class="selectEstado">
+                                    <td>
+                                        <select name="select" id="">
+                                            <option value="rj">rj</option>
+                                            <option value="es">es</option>
+                                            <option value="pr">pr</option>
+                                        </select>
+                                    </td>
+                                </div>
+                            </tr>
+                        </table>
+                </fieldset>
+            </div>
+
+
+            
+    </body>
+</html>
