@@ -2,6 +2,7 @@ body{
     font-family: "Caveat", cursive;
 }
 
+
 #dadosPessoais{
     font-size: 30px;
     background-color: rgb(197, 102, 102);
@@ -12,19 +13,21 @@ body{
 
 fieldset{
     border-radius: 10px;
-    width: 500px;
+    width: 600px;
     border-width: 3px;
     border-color: rgb(197, 102, 102);;
 }
 
 .tabelaDadosPessoais{
-    font-size: 25px;
+    font-size: 15px;
     text-align: right;
 }
 
 .divDadosPessoais{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .tabelaDadosPessoais input{
@@ -34,6 +37,23 @@ fieldset{
 select{
     width: 300px;
 }
+.botaoCadastrar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.btnCadastrar{
+    margin-top: 10px;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.btnCadastrar :hover{
+    background-color: rgb(224, 120, 120);
+}
+
 
 
 
